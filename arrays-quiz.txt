@@ -209,16 +209,15 @@ var test = [13, 929, 11, 9, 199, 1000, 7, 1, 399, 37, 4,
 
 // your code goes here
 
-function third(num,index,array){
+test.forEach(function third(num,index,array){
     if (num % 3 ===0){
         num +=100
         array[index]= num;
     }
     console.log(num);
 
-}
+});
 
-test.forEach(third);
 
 Output:
 13
